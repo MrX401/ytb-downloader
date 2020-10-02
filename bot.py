@@ -186,7 +186,7 @@ def m3u8_video_size(url, http_headers=None):
     return size
 
 async def main():
-    chat_and_message_id = str(sys.argv[1])
+    chat_and_message_id = str(sys.argv)
     urls = str(sys.argv[2]).split(" ")
     mode = None if len(sys.argv) <= 3 else sys.argv[3]
 
