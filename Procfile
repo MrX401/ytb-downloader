@@ -1,1 +1,1 @@
-worker: cd/app/python3 bot.py
+worker: cd/app/bot.py
